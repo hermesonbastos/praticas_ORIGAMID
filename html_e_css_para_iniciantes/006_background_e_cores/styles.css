@@ -1,0 +1,32 @@
+h1 {
+  background: black;
+  color: white;
+}
+
+a {
+  background-color: seagreen;
+  color:  white;
+}
+
+h1 {
+  background-color: #8844ee;
+  color: #000000;
+}
+
+a {
+  background-color: #84e;
+  color: #fff;
+}
+
+.a1 {
+  color: rgba(0, 0, 0, 0.8);
+}
+.a2 {
+  color: rgba(0, 0, 0, 0.6);
+}
+.a3 {
+  color: rgba(0, 0, 0, 0.4);
+}
+.a4 {
+  color: rgba(255, 0, 0, 1);
+}
