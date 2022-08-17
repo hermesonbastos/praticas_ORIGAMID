@@ -1,0 +1,49 @@
+<!--
+|---------------------------------------- Estilos do Browser ----------------------------------------|
+  -Padrão
+    Os browsers possuem um css inicial que é aplicado ao documento.
+
+  -h1 vs p
+    Por isso quando marcamos um h1 o texto fica maior/negrito em relação a um texto marcado com um p.
+
+|---------------------------------------- Reset, Reboot e Normalize ----------------------------------------|
+  -Algumas soluções foram criadas para lidar com os estilos iniciais. O principal objetivo delas é reduzir a inconsistência entre os browsers.
+
+  -Reset
+    Remove parte dos estilos iniciais
+      https://meyerweb.com/eric/tools/css/reset/
+
+  -Normalize
+    Normaliza os estilos iniciais entre os browsers sem remover os mesmos.
+      https://necolas.github.io/normalize.css/
+
+  -Reboot
+    É uma mistura de reset e normalize utilizada pelo Bootstrap.
+      https://raw.githubusercontent.com/twbs/bootstrap/main/dist/css/bootstrap-reboot.css
+
+|---------------------------------------- inherit (herança) ----------------------------------------|
+  -Existem propriedades do CSS que são passadas do pai para o filho como uma herança (inherit).
+
+  -Exemplos
+    color, font-size, font-family e outras.
+
+  -Padrão vs Herança
+    O valor padrão irá escrever por cima da herança. Por isso ao definirmos uma color no body, os <a> não mudam de cor.
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Estilos do Browser</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>Título</h1>
+    <p>Parágrafo</p>
+    <button>Clique aqui</button>
+    <div>Esse curso é bom</div>
+    <a href="#">Clique</a>
+  </body>
+</html>
