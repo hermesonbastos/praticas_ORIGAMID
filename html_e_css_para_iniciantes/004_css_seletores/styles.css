@@ -1,0 +1,19 @@
+h1, p {
+  color: orangered;
+}
+
+p a {
+  color: blue;
+}
+
+#logo {
+  color: gold;
+}
+
+.comida {
+  color: red;
+}
+
+.preferida {
+  text-decoration: underline;
+}

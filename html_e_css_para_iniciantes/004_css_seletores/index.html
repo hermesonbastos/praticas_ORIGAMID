@@ -1,0 +1,39 @@
+<!--
+|---------------------------------------- Seletores ----------------------------------------|
+  -h1, p
+    A vírgula permite selecionarmos múltiplos elementos para a aplicação de um mesmo estilo.
+
+  -p a
+    Seleciona o a que tiver um p como elemento pai (não precisa ser filho direto).
+
+  -id
+    Atributo HTML que adiciona um identificador único na tag. Esse identificar pode ser utilizado no CSS para selecionarmos o elemento: #nomeid
+
+  -class
+    Atributo HTML que adiciona um identificador reutilizável na tag. Esse identificar pode ser utilizado no CSS para selecionarmos o(s) elemento(s): .classe
+
+    Um elemento pode receber mais de uma classe
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Seletores</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+    <h1>Olá, seja bem vindo.</h1>
+    <p>Meu nome é Hermeson bastos. <a href="https://github.com/hermesonbastos" target="_blank">GitHub</a></p>
+    <a href="https://www.youtube.com/watch?v=-oqAU5VxFWs&ab_channel=CountingCrowsVEVO" target="_blank">Minha música preferida</a>
+
+    <h1 id="logo">Hermeson</h1>
+
+    <h1>Comidas preferidas</h1>
+    <h2 class="comida preferida">Camarão</h2>
+    <h2 class="comida">Pizza</h2>
+    <h2 class="comida">Fricassê</h2>
+    <h2 class="comida">Sushi</h2>
+  </body>
+</html>
