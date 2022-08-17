@@ -1,0 +1,16 @@
+.esconde {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: #ddd;
+  padding: 10px;
+  width: 160px;
+  height: 30px;
+  margin: 20px;
+}
+
+.inlineblock {
+  display: inline-block;
+}

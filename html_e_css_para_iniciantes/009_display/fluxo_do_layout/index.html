@@ -1,0 +1,37 @@
+<!--
+|---------------------------------------- Fluxo do Layout ----------------------------------------|
+  -O fluxo do layout no HTML ocorre conforme o modo de escrita definido. Por padrão, de cima para baixo da esquerda para a direita.
+
+  -span
+    Tag genérica que não possui nenhum estilo pré-definido/semântica. É equivalente a uma div, mas sem o display block.
+
+  -Ao modificar o modo de escrita, o fluxo também é modificado.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fluxo do layout</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    texto direto no body
+    <a href="#">Textono link</a>
+    <span>texto no span</span>
+    <div>texto na div</div>
+    Texto direto no Body 2
+    <a href="/">Texto no link 2</a>
+    <span>Texto no Span 2</span>
+
+    <div class="fluxo_modificado">
+      Texto direto no Body
+      <a href="/">Texto no link</a>
+      <span>Texto no Span</span>
+      <div>Texto na Div</div>
+      Texto direto no Body 2
+      <a href="/">Texto no link 2</a>
+      <span>Texto no Span 2</span>
+    </div>
+  </body>
+</html>

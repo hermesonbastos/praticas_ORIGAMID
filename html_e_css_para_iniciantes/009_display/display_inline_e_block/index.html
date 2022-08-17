@@ -1,0 +1,32 @@
+<!--
+|---------------------------------------- Display Inline e Block ----------------------------------------|
+  -Define como a caixa (box model) irá se comportar.
+
+  -inline
+    Respeita o fluxo da escrita sem iniciar uma nova linha, não é possível definir valores de width, height, margin (top/bottom) e etc. É o estilo padrão.
+
+  -block
+    Inicia uma nova linha e não permite que outros elementos sejam posicionados em sua linha. Aceita todas as propriedades do box model. Estilo inicial de elementos como h1, p, div e outros.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Display Inline e Block</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>H1 Block</h1>
+    <a href="/">Link Inline</a>
+    <span>Span Inline</span>
+    <strong>Strong inline</strong>
+    <p>P Block</p>
+    <p>Esse é um texto com um <span>elemento inline</span> dentro dele.</p>
+    <div>
+      Esse é um texto com um
+      <div>elemento block</div>
+      dentro dele.
+    </div>
+  </body>
+</html>
