@@ -1,0 +1,15 @@
+body {
+  writing-mode: vertical-rl;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.top h1 {
+  margin-top: 30px;
+}
+
+.block-start h1 {
+  margin-block-start: 30px;
+}
