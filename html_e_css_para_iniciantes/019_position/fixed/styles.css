@@ -1,0 +1,13 @@
+h1 {
+  border: 2px solid #ccc;
+  padding: 20px 200px 400px 20px; 
+}
+
+.fixo {
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  background-color: #eee;
+  border: 1px solid #aaa;
+}
