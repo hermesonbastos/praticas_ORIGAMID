@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+}
+
+h2 {
+  background-color: #e7e7e7;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.flex {
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  /* align-content: center; */
+  /* justify-content: center; */
+  /* OU */
+  place-content: center;
+}

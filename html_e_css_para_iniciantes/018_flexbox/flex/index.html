@@ -1,0 +1,32 @@
+<!--
+|---------------------------------------- Align e Justify ----------------------------------------|
+  -flex-grow: 1;
+    Se esse elemento deve crescer para ocupar o espaço vazio. O 0 impede o crescimento, valores maiores que 0 funcionam como a unidade fr do css grid.
+
+  -flex-basis: 200px;
+    Valor inicial antes de distribuir o espaço em branco.
+
+  -flex-shrink: 0;
+    Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. 0 significa que ele não pode ser reduzido.
+
+  -flex: 1;
+    Atalho para flex-grow: 1; flex-shrink: 1; e flex-basis: 0;
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="flex">
+      <h2>O Senhor dos Anéis</h2>
+      <h2>Interestelar</h2>
+      <h2>O Hobbit</h2>
+      <h2>Titanic</h2>
+    </div>
+  </body>
+</html>
