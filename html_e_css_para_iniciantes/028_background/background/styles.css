@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bicicleta {
+  background-image: url("../../011_img/img/bicicleta-1200-800.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 600px;
+}
+
+.bicicleta h1 {
+  background-color: #fff;
+  border-radius: 15px 2px 15px 2px;
+  padding: 1rem 2rem;
+  margin: auto;
+}
+
+.pattern {
+  height: 400px;
+  background-image: url("./img/pattern.svg");
+  background-size: 100px;
+  background-repeat: repeat; /*valor padrão*/
+}

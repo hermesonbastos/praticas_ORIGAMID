@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.linear {
+  height: 200px;
+  background-image: linear-gradient(to right, red, pink, orange);
+}
+
+.radial {
+  height: 200px;
+  background-image: radial-gradient(circle, red, pink, orange);
+}
