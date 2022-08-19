@@ -1,0 +1,29 @@
+.px {
+  font-size: 24px;
+  padding: 16px 32px;
+}
+
+.rem {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+html {
+  font-size: 150%;
+}
+
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+p {
+  background: lightblue;
+}
+
+a {
+  text-decoration: none;
+  background: darkblue;
+  color: white;
+  display: inline-block;
+}
