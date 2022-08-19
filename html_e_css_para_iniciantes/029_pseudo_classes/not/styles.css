@@ -1,0 +1,8 @@
+/* todos h2's dentro de section, menos o que tiver a classe .contato */
+section h2:not(.contato) {
+  text-decoration: underline;
+}
+
+ol li:not(:first-child, :last-child) {
+  background: #adf;
+}
