@@ -1,0 +1,28 @@
+h1::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 40px;
+  background-color: #caf;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+li::before {
+  content: "";
+  margin: 10px;
+  display: inline-block;
+  background-image: linear-gradient(#caf, #fff);
+  height: 10px;
+  border: 2px solid #caf;
+  width: 10px;
+  border-radius: 50%;
+}
