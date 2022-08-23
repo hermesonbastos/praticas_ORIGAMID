@@ -1,0 +1,22 @@
+.minmax {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.galeria {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+div {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 2rem;
+}
